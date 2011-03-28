@@ -42,6 +42,11 @@
  */
 @property (nonatomic, readonly) NSInteger maxPhotoIndex;
 
+/**
+ * Store the index of last viewed photo in a collection
+ */
+@property (nonatomic, assign) NSInteger lastIndex;
+
 - (id<TTPhoto>)photoAtIndex:(NSInteger)index;
 
 @end
