@@ -2,6 +2,7 @@ Differences From Three20
 =======
 
 * Stores index of last viewed photo in collection
+* Fix for app freezing when _photoSource is empty
 
 Three20
 =======
