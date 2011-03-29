@@ -317,7 +317,7 @@ static const NSInteger kActivityLabelTag          = 96;
     _photoStatusView = [[TTPhotoView alloc] initWithFrame:_scrollView.frame];
     _photoStatusView.defaultImage = _defaultImage;
     _photoStatusView.photo = nil;
-    [_innerView addSubview:_photoStatusView];
+    [_scrollView addSubview:_photoStatusView];
   }
 
   return _photoStatusView;
